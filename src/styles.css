@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+td {
+    padding: 6px;
+    border-bottom: 1px solid gray;
+}
+
+th {
+    background-color: #b7d0ff;
+    font-weight: bold;
+    padding: 12px 0px 12px 6px;
+    border-bottom: 2px solid gray;
+}
+
+table {
+    border-collapse: collapse;
+    font: 16px;
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+    padding: 60px;
+    width: 60%;
+}
+
+.center > h1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/*
+
+(Tämä rakaisu toimi, mutta tehtänä automaatiotestit eivät löytäneet tätä kohtaa koodista)
+
+.good > td {
+    background-color: #abffbd;
+}
+
+.bad {
+    background-color: #ff9e9e;
+}
+*/
